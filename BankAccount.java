@@ -7,6 +7,7 @@ public class BankAccount {
     private String customerName;
     private String email;
     private double phoneNumber;
+
                                                                    //Since we have private fields.
                                                                    //There must be some mechanism to access these private class fields
                                                                    //Setters are ways of setting the private variables and then
@@ -49,5 +50,6 @@ public class BankAccount {
     public double getPhoneNumber(){
         return phoneNumber;
     }
+
 
 }
